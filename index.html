@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" class="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR SECTION -->
+    <div class="section">
+      <nav>
+        <div class="portfolio">PORTFOLIO</div>
+        <div class="menu" id="menus">
+          <li><a href="#home" class="menu-detail">HOME</a></li>
+          <li><a href="#aboutus" class="menu-detail">ABOUT US</a></li>
+          <li><a href="#skills" class="menu-detail">SKILLS</a></li>
+          <li><a href="#contact" class="menu-detail">CONTACT</a></li>
+        </div>
+        <div>
+          <i class="fa-solid fa-bars" id="ham" onclick="myfunction()"></i>
+          <i
+            class="fa-sharp fa-solid fa-xmark"
+            id="cross"
+            onclick="crossfunction()"
+          ></i>
+        </div>
+      </nav>
+    </div>
+
+    <!-- INTRODUCTION SECTION -->
+    <div class="section">
+      <div class="home-section" id="home">
+        <div class="image">
+          <img
+            id="img1"
+            src="InShot_20230703_154427950-fotor-20230703164032.png"
+            alt=""
+          />
+        </div>
+
+        <div class="home">
+          <div class="intro-section">
+            <h2>HELLO, I am</h2>
+            <h1>SIDDHANT KANKARIA</h1>
+            <h3>
+              I am Front End Developer passionate about building accessible web
+              pages that users love.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT US SECTION  -->
+    <div class="section">
+      <div class="topics-heading">
+        <div style="background-color: #ade4db; color: #000" id="aboutus">
+          ABOUT ME
+        </div>
+        <div class="aboutme-content">
+          <div id="about-me">
+            <p>
+              I, am Siddhant Kankaria Computer Science Engineer. I have interest
+              in front End Development. Seeking a position in a company where I
+              can launch my career and build a valuable skill set.
+            </p>
+
+            <img src="sid1.jpg" alt="" class="img2" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SKILL SECTION -->
+    <div class="section">
+      <div class="topics-heading">
+        SKILLS
+        <div class="skill-details" id="skills">
+          <img src="0x0.webp" alt="" id="img3" />
+          <div class="skills-name">
+            <div class="skill-names">
+              C++ <span class="skill-percent">50%</span>
+              <div class="percentage-lining">
+                <div id="cpp-rating"></div>
+              </div>
+            </div>
+            <div class="skill-names">
+              HTML <span class="skill-percent">90%</span>
+              <div class="percentage-lining">
+                <div id="html-rating"></div>
+              </div>
+            </div>
+            <div class="skill-names">
+              CSS <span class="skill-percent"> 80%</span>
+              <div class="percentage-lining">
+                <div id="css-rating"></div>
+              </div>
+            </div>
+            <div class="skill-names">
+              Javascript <span class="skill-percent">60%</span>
+              <div class="percentage-lining">
+                <div id="js-rating"></div>
+              </div>
+            </div>
+            <div class="skill-names">
+              Bootstrap <span class="skill-percent">70%</span>
+              <div class="percentage-lining">
+                <div id="bootstrap-rating"></div>
+              </div>
+            </div>
+            <div class="skill-names">
+              SQL <span class="skill-percent">50%</span>
+              <div class="percentage-lining">
+                <div id="sql-rating"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+
+    <div class="section">
+      <div class="contact-details" id="contact">
+        <div class="contact">
+          <div class="contact-detail">
+            <input type="text" placeholder="Full Name" />
+          </div>
+
+          <div class="contact-detail">
+            <input type="text" placeholder="Email" />
+          </div>
+
+          <div class="contact-detail">
+            <textarea
+              name=""
+              id=""
+              cols="20"
+              rows="5"
+              placeholder="Enter Message"
+            ></textarea>
+          </div>
+
+          <div>
+            <div class="button-div">
+              <button class="send-button">SEND</button>
+              <div class="links">
+                <div class="follow">FOLLOW ME:</div>
+                <button class="icons">
+                  <a
+                    class="icon-a"
+                    href="https://www.linkedin.com/in/siddhant-kankaria-9982691aa/"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
+                </button>
+                <button class="icons">
+                  <a
+                    class="icon-a"
+                    href="mailto:siddhantkankaria2001@gmail.com"
+                    target="_blank"
+                    ><i class="fa-solid fa-envelope"></i
+                  ></a>
+                </button>
+                <button class="icons">
+                  <a
+                    class="icon-a"
+                    href="https://instagram.com/siddhant_kankaria_?igshid=MzNlNGNkZWQ4Mg=="
+                    target="blank"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Front End Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>

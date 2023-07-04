@@ -1,0 +1,434 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #ffff;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+.topics-heading {
+  width: 100%;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+}
+nav {
+  height: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+  padding: 1%;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2%;
+  width: 100%;
+  gap: 2rem;
+}
+.menu-detail {
+  text-decoration: none;
+  color: white;
+}
+.menu-detail:hover {
+  color: red;
+}
+li {
+  list-style: none;
+}
+.home-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+  gap: 4rem;
+}
+
+.image {
+  height: 60%;
+  margin-left: 15%;
+  display: flex;
+  justify-content: center;
+}
+.home {
+  height: 60%;
+  width: 80%;
+}
+.intro-section {
+  height: 90%;
+  width: 100%;
+  letter-spacing: 1px;
+}
+.intro-section h2 {
+  font-size: 3.5rem;
+  color: blue;
+}
+.intro-section h3 {
+  width: 60%;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.intro-section h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.aboutme-content {
+  height: 100vh;
+  width: 100%;
+  background-color: #ade4db;
+}
+
+#about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+  height: 100%;
+}
+p {
+  width: 30%;
+  text-align: justify;
+  line-height: 2;
+  letter-spacing: 0;
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 400;
+}
+.img2 {
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 500px;
+  margin: 5%;
+}
+
+.skill-details {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+.skills-name {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+.skill-names {
+  display: inline-block;
+  width: 50%;
+  font-size: 1.5rem;
+  text-align: start;
+  font-weight: 600;
+  margin-top: 3%;
+}
+.percentage-lining {
+  height: 0.5rem;
+  border-radius: 10px;
+
+  background-color: grey;
+}
+#cpp-rating {
+  height: 0.5rem;
+  background-color: #6665ee;
+  width: 50%;
+}
+#html-rating {
+  height: 0.5rem;
+  background-color: #6665ee;
+  width: 90%;
+}
+#css-rating {
+  height: 0.5rem;
+  background-color: #6665ee;
+  width: 80%;
+}
+#js-rating {
+  height: 0.5rem;
+  background-color: #6665ee;
+  width: 60%;
+}
+#bootstrap-rating {
+  height: 0.5rem;
+  background-color: #6665ee;
+  width: 70%;
+}
+#sql-rating {
+  height: 0.5rem;
+  background-color: #6665ee;
+  width: 50%;
+}
+
+.skill-percent {
+  float: right;
+  font-size: 1rem;
+  padding: 1%;
+}
+#img3 {
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 400px;
+  margin: 0 5% 5% 5%;
+}
+
+.contact-me {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.contact-details {
+  background-color: #a5c0dd;
+  width: 100%;
+  /* padding: 2%; */
+}
+.contact {
+  height: 100%;
+  width: 100%;
+  padding-top: 1%;
+}
+.contact-detail {
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+input[type="text"],
+select {
+  outline: none;
+  width: 40%;
+  padding: 1%;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: black;
+  font-size: 1.5rem;
+}
+textarea {
+  outline: none;
+  width: 40%;
+  padding: 1%;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.send-button {
+  outline: none;
+  width: 10%;
+  padding: 1%;
+  background-color: #fff;
+  border: 2px solid;
+  border-radius: 35px;
+  box-sizing: border-box;
+  color: black;
+  font-size: 1.5rem;
+  margin-top: 2%;
+  cursor: pointer;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2%;
+  margin-top: 2%;
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+
+.icons {
+  font-size: 1.5rem;
+}
+#ham {
+  font-size: 1.5rem;
+  display: none;
+}
+#cross {
+  font-size: 1.5rem;
+  display: none;
+}
+@media (max-width: 1000px) {
+  #ham {
+    display: block;
+    margin-right: 10px;
+  }
+  nav {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    font-size: 1rem;
+    padding: 2%;
+  }
+  #menus {
+    display: none;
+    width: 100%;
+
+    /* text-align: right; */
+  }
+  .portfolio {
+    font-size: 1.2rem;
+    margin-left: 4%;
+  }
+
+  li {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 65%;
+    margin-top: 1%;
+    list-style: none;
+  }
+  .home-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .image {
+    height: 40%;
+    margin-top: 5%;
+    margin-left: 0;
+  }
+  .home {
+    height: 60%;
+    width: 100%;
+  }
+  .intro-section {
+    height: 100%;
+    width: 100%;
+    letter-spacing: 1px;
+  }
+  .intro-section h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  .intro-section h3 {
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 4%;
+    width: 80%;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+  .intro-section h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+  }
+
+  #about-me {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    height: 95%;
+  }
+  p {
+    margin: 10% 0 0 0;
+    padding: 1%;
+    width: 60%;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 400;
+    line-height: 2;
+  }
+  .img2 {
+    width: 70%;
+  }
+  .skill-details {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .skills-name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+  }
+  .skill-names {
+    width: 60%;
+  }
+  #img3 {
+    width: 80%;
+    height: 200px;
+    margin: 0 0 15% 0;
+  }
+
+  .contact-details {
+    height: 100vh;
+    width: 100%;
+  }
+  .contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10%;
+  }
+  .contact-detail {
+    width: 100%;
+    margin: 4%;
+  }
+  input[type="text"],
+  select {
+    width: 70%;
+    padding: 2%;
+  }
+  textarea {
+    width: 70%;
+    padding: 2%;
+  }
+
+  .send-button {
+    width: 60%;
+    padding: 2%;
+  }
+  .links {
+    font-size: 1.5rem;
+    gap: 1rem;
+    padding: 0;
+    margin-top: 25%;
+  }
+
+  .icons {
+    height: 40px;
+    width: 40px;
+  }
+}
